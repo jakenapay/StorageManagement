@@ -1,0 +1,97 @@
+.sidebar {
+    width: 50%;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    transition: transform 0.3s ease-in-out;
+    z-index: 999;
+}
+
+nav {
+    background-color: var(--bgcolor);
+    color: var(--lightcolor);
+
+    padding: 40px 0 0;
+    height: 100vh;
+    width: 100%;
+
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+
+    position: relative;
+}
+
+#container-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#logo {
+    width: 50px;
+}
+
+nav ul {
+    margin-top: 30px;
+    width: 100%;
+}
+
+nav ul li {
+    list-style-type: none;
+    padding: 15px 0;
+    text-align: center;
+}
+
+nav ul li a,
+#container-logout a {
+    text-decoration: none;
+    font-weight: bold;
+    cursor: pointer;
+    color: #fdfdfd;
+}
+
+#container-logout {
+    margin-top: auto;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+i {
+    font-size: 1.3rem;
+    padding: 0 10px;
+}
+
+#container-footer {
+    padding: 20px 0;
+}
+
+#arrow {
+    margin: 5px;
+    padding: 5px;
+    position: absolute;
+    top: 0;
+    left: 100%;
+
+    background-color: var(--bgcolor);
+    color: var(--lightcolor);
+    border-radius: 10px;
+}
+
+#arrow-right {
+    display: none;
+}
+
+
+
+
+
+
+/* Hover effects ------------------------------------------- */
+
+nav ul li:hover {
+    background-color: var(--maincolor);
+}

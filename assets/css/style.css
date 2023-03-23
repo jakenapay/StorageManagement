@@ -1,0 +1,20 @@
+:root {
+    --bgcolor: #248232;
+    --darkcolor: #040F0F;
+    --maincolor: #2BA84A;
+    --neutralcolor: #2D3A3A;
+    --lightcolor: #FCFFFC;
+}
+
+*,
+body,
+html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: var(--lightcolor);
+}
