@@ -1,4 +1,11 @@
 <div class="sidebar">
+    <div id="arrow">
+        <!-- <input type="checkbox" id="toggle" /> -->
+        <!-- <label for="toggle"> -->
+        <i id="arrow-left" class="fa-solid fa-chevron-left" onclick="toggleSidebar()"></i>
+        <i id="arrow-right" class="fa-solid fa-chevron-right" onclick="toggleSidebar()"></i>
+        <!-- </label> -->
+    </div>
     <nav>
         <div id="container-logo">
             <img id="logo" src="assets/images/tempLogo.png" alt="Logo">
@@ -17,19 +24,22 @@
             <p>Storage Management &#169; <?php echo date("Y") ?></p>
         </div>
     </nav>
-    <div id="arrow">
-        <span>
-            <i id="arrow-left" class="fa-solid fa-chevron-left" onclick="toggleSidebar()"></i>
-            <i id="arrow-right" class="fa-solid fa-chevron-right" onclick="toggleSidebar()"></i>
-        </span>
-    </div>
 </div>
 
 <script>
     function toggleSidebar() {
-        const hideArrow = document.querySelector("#arrow-left");
-        const showArrow = document.querySelector("#arrow-right");
+        const hideArrow = document.getElementById("arrow-left");
+        const showArrow = document.getElementById("arrow-right");
         const sidebar = document.querySelector(".sidebar");
 
+        if (hideArrow.style.display === "block") {
+            hideArrow.style.display = "none";
+            showArrow.style.display = "block";
+            sidebar.style.transform = "translateX(-100%)";
+        } else {
+            hideArrow.style.display = "block";
+            showArrow.style.display = "none";
+            sidebar.style.transform = "none";
+        }
     }
 </script>
