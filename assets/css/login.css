@@ -1,0 +1,63 @@
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+}
+
+img[alt="logo"] {
+    width: 4rem;
+}
+
+form {
+    padding: 2rem 0;
+}
+
+form div {
+    margin-bottom: 1rem;
+}
+
+label {
+    display: block;
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.inputs {
+    display: block;
+    margin: .5rem 0;
+    font-size: 1rem;
+    text-align: center;
+    padding: 0.4rem 0.2rem;
+    border-radius: 9px;
+    border: 1px solid var(--neutralcolor);
+}
+
+#error-msg-box {
+    transition: 0.3s all ease-in-out;
+}
+
+#error-msg-box p {
+    text-align: center;
+    margin: 2rem 0;
+}
+
+#other-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#other-links a {
+    color: var(--maincolor);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#other-links a:hover {
+    color: var(--maincolor);
+    text-decoration: underline;
+}

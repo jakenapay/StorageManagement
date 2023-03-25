@@ -18,3 +18,27 @@ html {
 body {
     background-color: var(--lightcolor);
 }
+
+.main-btn {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    color: var(--lightcolor);
+    border: 1px solid var(--maincolor);
+    border-radius: 9px;
+    background-color: var(--maincolor);
+    transition: 0.2s all ease-in-out;
+}
+
+.main-btn:hover {
+    background-color: var(--bgcolor);
+    border: 1px solid var(--bgcolor);
+    color: var(--lightcolor);
+}
+
+.large-btn {
+    width: 100%;
+}
+
+.error-msg {
+    color: #ff6347;
+}
