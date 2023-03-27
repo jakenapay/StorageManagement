@@ -42,7 +42,8 @@ label {
 
 #error-msg-box p {
     text-align: center;
-    margin: 2rem 0;
+    margin: 0.5rem 0 2rem;
+    font-weight: bold;
 }
 
 #other-links {

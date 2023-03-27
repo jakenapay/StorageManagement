@@ -11,14 +11,24 @@
             <img id="logo" src="assets/images/tempLogo.png" alt="Logo">
         </div>
         <ul>
-            <li><a href="#"><i class="fas fa-house"></i>Home</a></li>
-            <li><a href="#"><i class="fas fa-computer"></i>Technologies</a></li>
-            <li><a href="#"><i class="fas fa-box-archive"></i>Supplies</a></li>
-            <li><a href="#"><i class="fas fa-clipboard"></i>Records</a></li>
-            <li><a href="#"><i class="fas fa-address-card"></i>Profile</a></li>
+            <a href="#">
+                <li><i class="fas fa-house"></i>Home</li>
+            </a>
+            <a href="#">
+                <li><i class="fas fa-computer"></i>Technologies</li>
+            </a>
+            <a href="#">
+                <li><i class="fas fa-box-archive"></i>Supplies</li>
+            </a>
+            <a href="#">
+                <li><i class="fas fa-clipboard"></i>Records</li>
+            </a>
+            <a href="#">
+                <li><i class="fas fa-address-card"></i>Profile</li>
+            </a>
         </ul>
         <div id="container-logout">
-            <a href="#"><i id="logout" class="fa-solid fa-door-open"></i>Logout</a>
+            <a href="includes/logout.inc.php"><i id="logout" class="fa-solid fa-door-open"></i>Logout</a>
         </div>
         <div id="container-footer">
             <p>Storage Management &#169; <?php echo date("Y") ?></p>

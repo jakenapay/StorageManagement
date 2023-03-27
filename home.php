@@ -1,14 +1,5 @@
 <?php
 include 'includes/config.inc.php';
-
-session_start();
-// Check if the user is not logged in (no session id)
-if (!isset($_SESSION['id']) || empty($_SESSION['id'])) {
-    // Redirect to login page
-    header("location: login.php");
-    exit();
-}
-
 ?>
 
 <!DOCTYPE html>
@@ -30,10 +21,8 @@ if (!isset($_SESSION['id']) || empty($_SESSION['id'])) {
 
 <body>
     <?php include 'sidebar.php'; ?>
-
-    <!-- Main section -->
     <main class="section-main">
-        <h1>Hello <?php echo $_SESSION['fn'] . " " . $_SESSION['ln']; ?></h1>
+        <h1>Hello user</h1>
     </main>
 </body>
 

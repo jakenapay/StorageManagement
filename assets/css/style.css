@@ -46,3 +46,12 @@ body {
 .horizontal-line {
     margin: 0.5rem 0;
 }
+
+
+@media (min-width: 990px) {
+
+    .section-main {
+        /* max-width: 80%; */
+        margin-left: 20%;
+    }
+}

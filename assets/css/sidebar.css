@@ -44,7 +44,12 @@ nav ul li {
     text-align: center;
 }
 
+nav ul a {
+    text-decoration: none;
+}
+
 nav ul li a,
+li,
 #container-logout a {
     text-decoration: none;
     font-weight: bold;
@@ -117,5 +122,8 @@ nav ul li:hover {
 
     .sidebar {
         width: 20%;
+        position: fixed;
+        transition: transform 0.3s ease-in-out;
+        z-index: unset;
     }
 }
