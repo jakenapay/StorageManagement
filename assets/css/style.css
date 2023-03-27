@@ -42,3 +42,7 @@ body {
 .error-msg {
     color: #ff6347;
 }
+
+.horizontal-line {
+    margin: 0.5rem 0;
+}

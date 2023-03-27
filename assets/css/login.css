@@ -49,12 +49,17 @@ label {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-direction: column;
 }
 
 #other-links a {
     color: var(--maincolor);
     font-weight: bold;
     text-decoration: none;
+}
+
+#other-links p {
+    margin: 0.2rem 0;
 }
 
 #other-links a:hover {

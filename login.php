@@ -41,10 +41,14 @@
                 <div>
                     <button class="main-btn large-btn" type="submit">Login</button>
                 </div>
+
+                <!-- Divider -->
+                <hr class="horizontal-line" />
+
                 <!-- Other links -->
                 <div id="other-links">
-                    <a href="#">Forgot Password?</a>
-                    <a href="#">Sign Up</a>
+                    <p><a href="#">Forgot Password?</a></p>
+                    <p><a href="#">Sign Up</a></p>
                 </div>
             </form>
         </main>
